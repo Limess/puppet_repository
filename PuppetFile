@@ -1,0 +1,9 @@
+forge 'http://forge.puppetlabs.com'
+
+mod 'puppetlabs/stdlib'
+mod 'puppetlabs/git'
+mod 'zak/r10k'
+
+mod 'tomcat'
+  :git  => 'git@github.com:Limess/puppet-local.git'
+  :path => 'modules/tomcat'

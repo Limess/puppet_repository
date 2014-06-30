@@ -1,0 +1,4 @@
+## site.pp ##
+
+node default {
+}
