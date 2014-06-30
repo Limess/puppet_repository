@@ -1,4 +1,4 @@
-forge 'http://forge.puppetlabs.com'
+forge 'forge.puppetlabs.com'
 
 mod 'puppetlabs/stdlib'
 mod 'puppetlabs/git'
