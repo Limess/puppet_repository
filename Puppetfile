@@ -8,11 +8,10 @@ mod "puppetlabs/mysql"
 mod "puppetlabs/firewall"
 mod "puppetlabs/vcsrepo"
 mod "puppetlabs/git"
+mod "puppetlabs/mongodb"
 mod "puppetlabs/inifile"
 mod "zack/r10k"
 mod "gentoo/portage"
 mod "thias/vsftpd"
 
-mod "tomcat",
-  :git => "git://github.com/Limess/puppet-test.git",
-  :path => "puppet/modules/tomcat"
+# Modules from Github using various references
