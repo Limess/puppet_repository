@@ -18,4 +18,4 @@ mod "thias/vsftpd"
 
 mod "tomcat",
   :git => "git://github.com/Limess/puppet-testing.git",
-  :path => 'puppet/modules/tomcat'
+  :path => "puppet/modules/tomcat"
