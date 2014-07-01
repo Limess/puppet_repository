@@ -32,5 +32,5 @@
    :ref => 'feature/debian_support'
 
  mod 'tomcat',
-   :git  => 'git://github.com/limess/puppet-testing.git'
+   :git  => "git://github.com/limess/puppet-testing.git",
    :path => 'puppet/modules/tomcat'
