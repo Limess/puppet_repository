@@ -35,6 +35,6 @@
    :git => "git://github.com/limess/puppet-testing.git",
    :path => 'puppet/modules/gradle'
 
- mod 'redis',
+ mod 'IAMBREAKING/redis',
    :git => 'git://github.com/glarizza/puppet-redis.git',
    :ref => 'feature/debian_support'
