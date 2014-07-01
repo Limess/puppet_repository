@@ -12,3 +12,7 @@ mod "puppetlabs/inifile"
 mod "zack/r10k"
 mod "gentoo/portage"
 mod "thias/vsftpd"
+
+mod "tomcat"
+  :git => "git@github.com/Limess/puppet-test.git",
+  :path => "puppet/modules/tomcat"
