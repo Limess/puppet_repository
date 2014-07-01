@@ -27,8 +27,8 @@
    :git => "git://github.com/glarizza/puppet-property_list_key.git",
    :ref => '952a65d9ea2c5809f4e18f30537925ee45548abc'
 
- mod 'tomcat',
-   :git => 'git://github.com/limess/puppet-testing.git',
+ mod "tomcat",
+   :git => "git://github.com/limess/puppet-testing.git",
    :path => 'puppet/modules/tomcat'
 
  mod 'redis',
