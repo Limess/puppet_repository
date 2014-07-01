@@ -15,3 +15,7 @@ mod "gentoo/portage"
 mod "thias/vsftpd"
 
 # Modules from Github using various references
+
+mod "tomcat",
+  :git => "git://github.com/Limess/puppet-testing.git",
+  :path => 'puppet/modules/tomcat'
