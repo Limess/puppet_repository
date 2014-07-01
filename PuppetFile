@@ -1,8 +1,8 @@
  forge 'forge.puppetlabs.com'
  
  # Modules from the Puppet Forge
- mod 'puppetlabs/git'
- mod 'puppetlabs/mongodb'
+ mod "puppetlabs/git"
+ mod "puppetlabs/mongodb"
  mod "puppetlabs/stdlib"
  mod "puppetlabs/apache", "0.11.0"
  mod "puppetlabs/pe_gem"
@@ -25,11 +25,3 @@
  mod "testing/tomcat",
    :git => "git://github.com/limess/puppet-testing.git",
    :path => 'puppet/modules/tomcat'
-
- mod "testing/gradle",
-   :git => "git://github.com/limess/puppet-testing.git",
-   :path => 'puppet/modules/gradle'
-
- mod 'IAMBREAKING/redis',
-   :git => 'git://github.com/glarizza/puppet-redis.git',
-   :ref => 'feature/debian_support'
