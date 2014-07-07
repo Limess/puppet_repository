@@ -2,7 +2,7 @@ forge "http://forge.puppetlabs.com"
 
 # Modules from the Puppet Forge
 mod "puppetlabs/stdlib"
-mod "puppetlabs/gradle"
+mod 'gini/gradle'
 mod "puppetlabs/java"
 mod "puppetlabs/nodejs"
 mod "puppetlabs/firewall"
